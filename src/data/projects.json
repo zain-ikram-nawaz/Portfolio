@@ -1,0 +1,74 @@
+[
+  {
+    "id": "automotive-configurator",
+    "title": "Automotive Configurator",
+    "category": "featured",
+    "type": "3D Configurator",
+    "client": "AutoLux GmbH",
+    "year": "2024",
+    "description": "Real-time 3D vehicle configurator with 200+ customization options. Built with React Three Fiber, custom PBR shaders, and a live price calculator.",
+    "tags": ["Three.js", "React Three Fiber", "Next.js", "WebGL", "GLSL"],
+    "color": "#818cf8",
+    "stats": { "polygons": "2.4M", "materials": "200+", "loadTime": "< 2s" }
+  },
+  {
+    "id": "furniture-studio",
+    "title": "Furniture Studio",
+    "category": "featured",
+    "type": "Product Configurator",
+    "client": "Möbel & Co.",
+    "year": "2024",
+    "description": "AR-ready furniture configurator with real-time fabric, wood, and finish customization. Integrated with Shopify for direct-to-cart purchase.",
+    "tags": ["Three.js", "AR.js", "Next.js", "Shopify", "Tailwind"],
+    "color": "#38bdf8",
+    "stats": { "products": "500+", "variants": "10K+", "conversion": "+42%" }
+  },
+  {
+    "id": "luxury-watch-builder",
+    "title": "Luxury Watch Builder",
+    "category": "featured",
+    "type": "3D Configurator",
+    "client": "Chronos Atelier",
+    "year": "2023",
+    "description": "Hyper-realistic watch configurator with sub-millimeter precision rendering. Custom GLSL shaders simulate metal reflectivity and sapphire crystal refraction.",
+    "tags": ["Three.js", "GLSL", "WebGL", "React", "Node.js"],
+    "color": "#f472b6",
+    "stats": { "renderFPS": "60fps", "materials": "85+", "accuracy": "0.1mm" }
+  },
+  {
+    "id": "architecture-visualizer",
+    "title": "Architecture Visualizer",
+    "category": "company",
+    "type": "Interactive Experience",
+    "client": "Baumhaus Studio",
+    "year": "2023",
+    "description": "Real-time architectural walkthrough with day/night cycle, material swapping, and full environment simulation for pre-sale property tours.",
+    "tags": ["Three.js", "React Three Fiber", "GSAP", "Next.js"],
+    "color": "#34d399",
+    "stats": { "rooms": "24", "lightSources": "300+", "resolution": "4K ready" }
+  },
+  {
+    "id": "sneaker-configurator",
+    "title": "Sneaker Configurator",
+    "category": "personal",
+    "type": "3D Configurator",
+    "client": "Open Source",
+    "year": "2024",
+    "description": "Open-source sneaker customization tool. Users paint any part of the shoe in real-time using a custom 3D UV painting algorithm built from scratch.",
+    "tags": ["Three.js", "React Three Fiber", "TypeScript", "WebGL"],
+    "color": "#fb923c",
+    "stats": { "stars": "1.2K", "parts": "30+", "colors": "∞" }
+  },
+  {
+    "id": "immersive-gallery",
+    "title": "3D Art Gallery",
+    "category": "personal",
+    "type": "Interactive Experience",
+    "client": "Personal Project",
+    "year": "2023",
+    "description": "First-person 3D art gallery with spatial audio, dynamic lighting, and NFT integration. Walk through curated exhibitions entirely in the browser.",
+    "tags": ["Three.js", "Web Audio API", "React", "IPFS"],
+    "color": "#a78bfa",
+    "stats": { "visitors": "8K+", "exhibits": "6", "artists": "12" }
+  }
+]

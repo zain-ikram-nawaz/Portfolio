@@ -1,0 +1,34 @@
+[
+  {
+    "id": "configurator",
+    "title": "3D Product Configurators",
+    "description": "Real-time, browser-based configurators that let customers customize every detail — color, material, finish — and see it instantly in photorealistic 3D. No plugins, no downloads.",
+    "icon": "Boxes",
+    "accentColor": "#818cf8",
+    "features": ["Real-time PBR rendering", "Material & color variants", "AR export ready", "E-commerce integration"]
+  },
+  {
+    "id": "interactive",
+    "title": "Interactive Web Experiences",
+    "description": "Immersive storytelling experiences, interactive product launches, and WebGL-powered marketing campaigns that stop visitors mid-scroll and make them stay.",
+    "icon": "Sparkles",
+    "accentColor": "#38bdf8",
+    "features": ["Scroll-driven animation", "3D environments", "Particle systems", "Custom GLSL shaders"]
+  },
+  {
+    "id": "nextjs",
+    "title": "Next.js Applications",
+    "description": "Full-stack Next.js applications where performance is a first principle, not an afterthought. From marketing sites to complex SaaS dashboards.",
+    "icon": "Zap",
+    "accentColor": "#34d399",
+    "features": ["App Router architecture", "Server Components", "Edge-optimized", "SEO & Core Web Vitals"]
+  },
+  {
+    "id": "visualization",
+    "title": "3D Data Visualization",
+    "description": "Transform complex datasets into interactive 3D visualizations. Make numbers tangible and let users explore data in three dimensions instead of two.",
+    "icon": "BarChart3",
+    "accentColor": "#f472b6",
+    "features": ["Real-time data binding", "Custom geometries", "Interactive exploration", "Export & embed"]
+  }
+]

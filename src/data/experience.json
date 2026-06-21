@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "role": "Senior Three.js Developer",
+    "company": "Vankea Digital Studio",
+    "period": "2023 — Present",
+    "type": "Full-time",
+    "description": "Leading 3D web development for enterprise clients across automotive, luxury, and architecture. Architecting real-time product configurators used by 500K+ monthly users.",
+    "highlights": [
+      "Delivered 8 production-grade 3D configurators for European enterprise clients",
+      "Reduced 3D asset load time by 65% with a custom LOD streaming system",
+      "Mentored 3 junior developers in WebGL and React Three Fiber fundamentals"
+    ]
+  },
+  {
+    "id": 2,
+    "role": "Freelance Next.js & Three.js Developer",
+    "company": "Independent",
+    "period": "2021 — 2023",
+    "type": "Freelance",
+    "description": "Built 3D experiences and interactive web applications for 15+ clients across automotive, luxury goods, and architecture sectors.",
+    "highlights": [
+      "Delivered 12 Three.js projects spanning 6 industries",
+      "Average client satisfaction: 4.9 / 5 across all engagements",
+      "Work featured on Awwwards, CSS Design Awards, and FWA"
+    ]
+  },
+  {
+    "id": 3,
+    "role": "Frontend Developer",
+    "company": "Pixel Lab Agency",
+    "period": "2019 — 2021",
+    "type": "Full-time",
+    "description": "Built marketing sites and web apps with React and Next.js. Early experimentation with WebGL led to a full specialization pivot into 3D web development.",
+    "highlights": [
+      "Built 20+ React/Next.js applications from brief to launch",
+      "Introduced Three.js to the agency, leading to 3 award-winning 3D projects",
+      "Improved Core Web Vitals scores by an average of 40% across the portfolio"
+    ]
+  }
+]

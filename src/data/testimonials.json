@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Marcus Weber",
+    "role": "CEO",
+    "company": "AutoLux GmbH",
+    "text": "Zain delivered a configurator that genuinely shocked our product team. The rendering quality rivals dedicated desktop software, yet it runs at 60fps in any browser. Our conversion rate jumped 38% in the first month.",
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "name": "Sophie Laurent",
+    "role": "Head of E-Commerce",
+    "company": "Möbel & Co.",
+    "text": "We needed someone who understood both the technical complexity of 3D and the business reality of e-commerce. Zain was that rare combination. The furniture configurator he built is now our single biggest sales driver.",
+    "rating": 5
+  },
+  {
+    "id": 3,
+    "name": "James Acheson",
+    "role": "Founder",
+    "company": "Chronos Atelier",
+    "text": "The watch builder exceeded every expectation. The GLSL shaders he wrote for the metal and crystal materials are indistinguishable from photography at a glance. A true craftsman who takes pride in every polygon.",
+    "rating": 5
+  }
+]
