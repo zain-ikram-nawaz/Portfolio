@@ -72,7 +72,7 @@ export default function Nav() {
           {/* CTA */}
           <div className="hidden md:flex items-center gap-3">
             <a
-              href="mailto:it@vankea.com"
+              href="mailto:zainikram704@gmail.com"
               className="text-sm px-5 py-2 rounded-full transition-all duration-200 font-medium"
               style={{
                 background: "linear-gradient(135deg, #818cf8, #38bdf8)",
@@ -122,7 +122,7 @@ export default function Nav() {
                 </motion.button>
               ))}
               <a
-                href="mailto:it@vankea.com"
+                href="mailto:zainikram704@gmail.com"
                 className="mt-4 text-center text-lg px-6 py-3 rounded-full font-semibold"
                 style={{
                   background: "linear-gradient(135deg, #818cf8, #38bdf8)",

@@ -1,15 +1,13 @@
 {
   "categories": [
     {
-      "name": "3D & Graphics",
+      "name": "3D & Interactive",
       "color": "#818cf8",
       "skills": [
-        { "name": "Three.js", "level": 95 },
-        { "name": "React Three Fiber", "level": 92 },
-        { "name": "WebGL", "level": 85 },
-        { "name": "GLSL Shaders", "level": 80 },
-        { "name": "Drei", "level": 90 },
-        { "name": "Blender", "level": 75 }
+        { "name": "Three.js", "level": 92 },
+        { "name": "React Three Fiber", "level": 88 },
+        { "name": "WebGL", "level": 80 },
+        { "name": "3D Component Visualization", "level": 85 }
       ]
     },
     {
@@ -17,24 +15,41 @@
       "color": "#38bdf8",
       "skills": [
         { "name": "Next.js", "level": 95 },
-        { "name": "React", "level": 95 },
-        { "name": "TypeScript", "level": 88 },
-        { "name": "Tailwind CSS", "level": 90 },
-        { "name": "Framer Motion", "level": 85 },
-        { "name": "GSAP", "level": 80 }
+        { "name": "React.js", "level": 95 },
+        { "name": "Redux", "level": 85 },
+        { "name": "Tailwind CSS", "level": 92 },
+        { "name": "Responsive UI Design", "level": 90 }
       ]
     },
     {
-      "name": "Backend & Tools",
+      "name": "Backend & Cloud",
       "color": "#34d399",
       "skills": [
-        { "name": "Node.js", "level": 82 },
-        { "name": "PostgreSQL", "level": 75 },
-        { "name": "Prisma", "level": 78 },
-        { "name": "Git", "level": 92 },
-        { "name": "Docker", "level": 70 },
-        { "name": "Vercel", "level": 88 }
+        { "name": "Node.js", "level": 88 },
+        { "name": "Express.js", "level": 88 },
+        { "name": "REST APIs & JWT", "level": 92 },
+        { "name": "AWS (S3, EC2)", "level": 75 }
+      ]
+    },
+    {
+      "name": "Databases",
+      "color": "#fb923c",
+      "skills": [
+        { "name": "MongoDB", "level": 90 },
+        { "name": "MySQL", "level": 82 }
+      ]
+    },
+    {
+      "name": "Tools & Integrations",
+      "color": "#a78bfa",
+      "skills": [
+        { "name": "Git & GitHub", "level": 90 },
+        { "name": "Vercel & Netlify", "level": 88 },
+        { "name": "Postman", "level": 85 },
+        { "name": "Third-Party APIs (ClickUp)", "level": 88 },
+        { "name": "Stripe Payments", "level": 80 }
       ]
     }
   ]
+
 }

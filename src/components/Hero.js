@@ -8,10 +8,10 @@ import { ArrowRight, ChevronDown } from "lucide-react"
 const HeroScene = dynamic(() => import("./HeroScene"), { ssr: false })
 
 const stats = [
-  { value: "5+", label: "Years experience" },
-  { value: "30+", label: "Projects shipped" },
+  { value: "2+", label: "Years experience" },
+  { value: "10+", label: "Projects shipped" },
   { value: "60fps", label: "Always" },
-  { value: "15+", label: "Happy clients" },
+  { value: "10+", label: "Happy clients" },
 ]
 
 const stagger = {
@@ -158,7 +158,7 @@ export default function Hero() {
                 See My Work <ArrowRight size={16} />
               </button>
               <a
-                href="mailto:it@vankea.com"
+                href="mailto:zainikram704@gmail.com"
                 className="flex items-center gap-2 px-6 py-3 rounded-full font-semibold text-sm transition-all duration-200 hover:scale-105 active:scale-95"
                 style={{
                   background: "rgba(255,255,255,0.05)",

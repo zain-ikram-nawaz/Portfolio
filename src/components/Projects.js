@@ -4,6 +4,8 @@ import { useState, useRef } from "react"
 import { motion, useInView, AnimatePresence } from "framer-motion"
 import { ArrowUpRight } from "lucide-react"
 import projects from "@/data/projects.json"
+import Link from "next/link";
+
 
 const filters = ["all", "featured", "company", "personal"]
 
@@ -149,12 +151,14 @@ export default function Projects() {
                   </span>
 
                   {/* Arrow on hover */}
-                  <div
+                  {/* Arrow on hover */}
+                  <Link
+                    href={project.link || "#"}
                     className="absolute bottom-4 right-4 w-8 h-8 rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-200"
                     style={{ background: project.color, color: "#04040b" }}
                   >
                     <ArrowUpRight size={14} />
-                  </div>
+                  </Link>
                 </div>
 
                 {/* Content */}

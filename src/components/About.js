@@ -7,24 +7,23 @@ import { Code2, Cpu, Globe } from "lucide-react"
 const pillars = [
   {
     icon: Code2,
-    title: "3D-First Thinking",
-    body: "I approach every project by asking: what does this product look like in three dimensions? That question unlocks experiences your competitors can't replicate.",
+    title: "Interactive 3D Configuations",
+    body: "I bring complex products to life using Three.js and WebGL. From custom van builds to CNC components, I engineer photorealistic 3D visualization right in the browser.",
     color: "#818cf8",
   },
   {
     icon: Cpu,
-    title: "Performance Obsessed",
-    body: "60fps is not a stretch goal — it's the floor. Custom LOD systems, compressed textures, and shader-level optimization are built into every project from day one.",
+    title: "Full-Stack Automation",
+    body: "I specialize in digitizing legacy workflows. Whether it's building secure admin panels or custom ClickUp API tracking tools, I eliminate manual errors and optimize business productivity.",
     color: "#38bdf8",
   },
   {
     icon: Globe,
-    title: "Browser-Native",
-    body: "No apps, no plugins, no barriers. Everything I build runs directly in the browser — accessible to every customer on any device with zero friction.",
+    title: "Performance & Scaling",
+    body: "Performance is integrated from day one. I architect fast, responsive Next.js applications integrated with robust databases like MongoDB and MySQL for seamless user experiences.",
     color: "#34d399",
   },
 ]
-
 const fadeUp = {
   hidden: { opacity: 0, y: 32 },
   show: (i) => ({
@@ -67,9 +66,9 @@ export default function About() {
               className="text-4xl md:text-5xl font-display font-800 leading-tight tracking-tighter"
               style={{ fontFamily: "var(--font-syne)", fontWeight: 800, color: "#e4e4f0" }}
             >
-              I turn products
+              I turn complex workflows
               <br />
-              <span className="gradient-text">into experiences.</span>
+              <span className="gradient-text">into seamless realities.</span>
             </h2>
           </motion.div>
 
@@ -81,13 +80,13 @@ export default function About() {
             className="flex flex-col justify-center gap-4"
           >
             <p className="text-base leading-relaxed" style={{ color: "#7272a0", fontFamily: "var(--font-dm-sans)" }}>
-              I'm Zain Ikram Nawaz — a Three.js and Next.js developer based in Europe, specializing in
-              3D product configurators and interactive web experiences.
+              I'm Zain Ikram Nawaz — a Full Stack Next.js & Three.js Developer based in Karachi, Pakistan,
+              specializing in interactive 3D product configurators and high-performance automation tools.
             </p>
             <p className="text-base leading-relaxed" style={{ color: "#7272a0", fontFamily: "var(--font-dm-sans)" }}>
-              For five years I've been at the intersection of 3D graphics and the open web — building
-              tools that let people touch products before they buy them, understand architecture before
-              it's built, and experience brands in ways flat design never could.
+              For over two years, I’ve worked at the intersection of 3D graphics and modern full-stack development —
+              building real-time web solutions (like interactive van models) and secure admin portals that
+              digitize legacy systems and boost operational efficiency.
             </p>
           </motion.div>
         </div>

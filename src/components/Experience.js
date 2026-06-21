@@ -14,7 +14,7 @@ const fadeUp = {
 }
 
 export default function Experience() {
-  const ref = useRef()
+  const ref = useRef(null) // Safe Initialization
   const inView = useInView(ref, { once: true, margin: "-80px" })
 
   return (
@@ -45,9 +45,9 @@ export default function Experience() {
             className="text-4xl md:text-5xl font-display font-800 leading-tight tracking-tighter"
             style={{ fontFamily: "var(--font-syne)", fontWeight: 800, color: "#e4e4f0" }}
           >
-            Five years of
+            Two years of
             <br />
-            <span className="gradient-text-warm">building in 3D.</span>
+            <span className="gradient-text-warm">full-stack engineering.</span>
           </h2>
         </motion.div>
 
@@ -101,7 +101,7 @@ export default function Experience() {
                           >
                             {item.role}
                           </h3>
-                          <p className="text-sm" style={{ color: "#818cf8", fontFamily: "var(--font-dm-sans)" }}>
+                          <p className="text-sm font-medium" style={{ color: "#818cf8", fontFamily: "var(--font-dm-sans)" }}>
                             {item.company}
                           </p>
                         </div>
@@ -119,15 +119,16 @@ export default function Experience() {
                             {item.period}
                           </span>
                           <span
-                            className="text-xs"
-                            style={{ color: "#52526e", fontFamily: "var(--font-dm-sans)" }}
+                            className="text-xs opacity-80"
+                            style={{ color: "#a4a4c0", fontFamily: "var(--font-dm-sans)" }}
                           >
                             {item.type}
                           </span>
                         </div>
                       </div>
 
-                      <p className="text-sm leading-relaxed" style={{ color: "#52526e", fontFamily: "var(--font-dm-sans)" }}>
+                      {/* Description - Fixed Color from #52526e to #a4a4c0 for better readability */}
+                      <p className="text-sm leading-relaxed" style={{ color: "#a4a4c0", fontFamily: "var(--font-dm-sans)" }}>
                         {item.description}
                       </p>
 
@@ -140,7 +141,7 @@ export default function Experience() {
                             style={{ color: "#7272a0", fontFamily: "var(--font-dm-sans)" }}
                           >
                             <span
-                              className="mt-2 w-1 h-1 rounded-full flex-shrink-0"
+                              className="mt-2 w-1.5 h-1.5 rounded-full flex-shrink-0"
                               style={{ background: "#818cf8" }}
                             />
                             {h}

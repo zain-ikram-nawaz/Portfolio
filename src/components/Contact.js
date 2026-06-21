@@ -36,7 +36,7 @@ export default function Contact() {
     const body = encodeURIComponent(
       `Hi Zain,\n\nName: ${form.name}\nEmail: ${form.email}\nProject type: ${form.type}\n\n${form.message}`
     )
-    window.location.href = `mailto:it@vankea.com?subject=${subject}&body=${body}`
+    window.location.href = `mailto:zainikram704@gmail.com?subject=${subject}&body=${body}`
     setSent(true)
   }
 
@@ -237,7 +237,7 @@ export default function Contact() {
 
             {/* Direct email */}
             <a
-              href="mailto:it@vankea.com"
+              href="mailto:zainikram704@gmail.com"
               className="rounded-2xl p-6 flex flex-col gap-2 group transition-all duration-200"
               style={{
                 background: "rgba(255,255,255,0.02)",
@@ -251,7 +251,7 @@ export default function Contact() {
                 className="text-sm font-mono font-medium group-hover:text-accent transition-colors"
                 style={{ color: "#818cf8", fontFamily: "var(--font-jetbrains-mono)" }}
               >
-                it@vankea.com
+                zainikram704@gmail.com
               </p>
             </a>
 

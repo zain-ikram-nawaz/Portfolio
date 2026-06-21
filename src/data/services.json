@@ -2,33 +2,33 @@
   {
     "id": "configurator",
     "title": "3D Product Configurators",
-    "description": "Real-time, browser-based configurators that let customers customize every detail — color, material, finish — and see it instantly in photorealistic 3D. No plugins, no downloads.",
+    "description": "Real-time, browser-based 3D configurators (jaise Van and CNC components visualization) jo customers ko interactive camera controls, custom materials, aur animations ke sath live customization ka experience dete hain.",
     "icon": "Boxes",
     "accentColor": "#818cf8",
-    "features": ["Real-time PBR rendering", "Material & color variants", "AR export ready", "E-commerce integration"]
+    "features": ["Three.js & WebGL rendering", "Material & component selection", "Camera controls & animations", "User submission workflows"]
   },
   {
-    "id": "interactive",
-    "title": "Interactive Web Experiences",
-    "description": "Immersive storytelling experiences, interactive product launches, and WebGL-powered marketing campaigns that stop visitors mid-scroll and make them stay.",
+    "id": "booking-ecosystems",
+    "title": "Full-Stack Booking Systems",
+    "description": "Comprehensive booking aur venue management platforms (jaise wedX.com) jahan vendors aur users ke liye dual-dashboards, real-time availability tracking, aur dynamic consultation systems majood hon.",
     "icon": "Sparkles",
     "accentColor": "#38bdf8",
-    "features": ["Scroll-driven animation", "3D environments", "Particle systems", "Custom GLSL shaders"]
+    "features": ["Dual-dashboard architecture", "Real-time availability", "User & Vendor workflows", "Stripe payment integrations"]
   },
   {
     "id": "nextjs",
-    "title": "Next.js Applications",
-    "description": "Full-stack Next.js applications where performance is a first principle, not an afterthought. From marketing sites to complex SaaS dashboards.",
+    "title": "Next.js Web Applications",
+    "description": "High-performance full-stack applications aur optimized services portfolio websites jahan scaling, smooth client acquisition, aur pixel-perfect modern responsive UI par poora focus ho.",
     "icon": "Zap",
     "accentColor": "#34d399",
-    "features": ["App Router architecture", "Server Components", "Edge-optimized", "SEO & Core Web Vitals"]
+    "features": ["App Router & Server Components", "Responsive UI design", "Optimized performance scaling", "MERN stack integration"]
   },
   {
-    "id": "visualization",
-    "title": "3D Data Visualization",
-    "description": "Transform complex datasets into interactive 3D visualizations. Make numbers tangible and let users explore data in three dimensions instead of two.",
+    "id": "automation-panels",
+    "title": "Admin Dashboards & API Tools",
+    "description": "Custom management tools (jaise Gawahi Healthcare) aur internal API integrations (jaise ClickUp tracking tools) jo manual Google Sheets workflows ko khatam karke productivity ko automate karte hain.",
     "icon": "BarChart3",
     "accentColor": "#f472b6",
-    "features": ["Real-time data binding", "Custom geometries", "Interactive exploration", "Export & embed"]
+    "features": ["Secure role-based access control", "ClickUp / Third-party API setups", "JWT Authentication & Security", "Legacy workflow digitization"]
   }
 ]
